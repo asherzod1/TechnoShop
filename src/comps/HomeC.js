@@ -5,6 +5,8 @@ import './HomeC.scss'
 import Product from './smallComps/Product';
 import AboutC from './AboutC';
 import ShopC from './ShopC';
+import Blog from './Blog';
+import ContactC from './ContactC';
 const HomeC = () => {
     return (
         <div>
@@ -36,6 +38,8 @@ const HomeC = () => {
             <Product />
             <AboutC />
             <ShopC />
+            <Blog />
+            <ContactC />
         </div>
     )
 }
